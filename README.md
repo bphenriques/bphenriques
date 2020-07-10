@@ -6,7 +6,6 @@
 
 [![Homepage](https://img.shields.io/static/v1?label=Homepage&message=bphenriques.github.io&color=informational)](https://bphenriques.github.io)
 [![Knowledge Base](https://img.shields.io/static/v1?label=Knowledge-Base&message=bphenriques.github.io/knowledge-base&color=informational)](https://bphenriques.github.io/knowledge-base)
-
 ![Kotlin](https://img.shields.io/static/v1?label=Language&message=Kotlin&color=red)
 ![Scala](https://img.shields.io/static/v1?label=Language&message=Scala&color=red)
 ![Functional Programming](https://img.shields.io/static/v1?label=Love&message=Functional%20Programming&color=red)
