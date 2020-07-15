@@ -15,7 +15,7 @@
   <a href="https://medium.com/@brunoaphenriques">
     <img src="https://img.shields.io/static/v1?style=flat-square&label=&logo=Medium&color=767676&logoColor=white&labelColor=767676&message=brunoaphenriques">
   </a>
-  <a href="https://github.com/bphenriques/curriculum-vitae-bphenriques/raw/master/bruno_henriques_curriculum_vitae.pdf">
+  <a href="https://github.com/bphenriques/curriculum-vitae-bphenriques/raw/master/Bruno_Henriques_Resume.pdf">
     <img src="https://img.shields.io/static/v1?style=flat-square&label=%F0%9F%91%A4&color=gray&labelColor=gray&message=Resume">
   </a>
 </p>
