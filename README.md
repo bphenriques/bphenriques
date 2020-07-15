@@ -12,17 +12,17 @@
   <a href="https://bphenriques.github.io/knowledge-base">
     <img src="https://img.shields.io/static/v1?style=flat-square&label=%F0%9F%A7%A0&color=palevioletred&labelColor=palevioletred&message=Knowledge-Base">
   </a>
-  <a href="mailto:brunoaphenriques@gmail.com">
-    <img src="https://img.shields.io/static/v1?style=flat-square&label=&logo=Gmail&color=c14438&logoColor=white&labelColor=c14438&message=brunoaphenriques@gmail.com">
+  <a href="mailto:bphenriques@outlook.com">
+    <img src="https://img.shields.io/static/v1?style=flat-square&label=&logo=Microsoft-Outlook&color=1a70bc&logoColor=white&labelColor=1a70bc&message=bphenriques@outlook.com">
   </a>
   <a href="https://www.linkedin.com/in/bphenriques">
     <img src="https://img.shields.io/static/v1?style=flat-square&label=&logo=LinkedIn&color=blue&logoColor=white&labelColor=blue&message=bphenriques">
   </a>
   <a href="https://medium.com/@brunoaphenriques">
-    <img src="https://img.shields.io/static/v1?style=flat-square&label=&logo=Medium&color=gray&logoColor=white&labelColor=gray&message=brunoaphenriques">
+    <img src="https://img.shields.io/static/v1?style=flat-square&label=&logo=Medium&color=767676&logoColor=white&labelColor=767676&message=brunoaphenriques">
   </a>
   <a href="https://github.com/bphenriques/curriculum-vitae-bphenriques/raw/master/bruno_henriques_curriculum_vitae.pdf">
-    <img src="https://img.shields.io/static/v1?style=flat-square&label=%F0%9F%91%A4&color=38474f&labelColor=38474f&message=Resume">
+    <img src="https://img.shields.io/static/v1?style=flat-square&label=%F0%9F%91%A4&color=gray&labelColor=gray&message=Resume">
   </a>
 </p>
 
