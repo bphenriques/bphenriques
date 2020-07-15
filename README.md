@@ -25,9 +25,9 @@
   <img src="https://img.shields.io/static/v1?style=flat-square&logo=Spring&label=&message=Spring%20Boot&color=gray">
   <img src="https://img.shields.io/static/v1?style=flat-square&logo=Scala&label=&message=Scala&color=gray">
   <img src="https://img.shields.io/static/v1?style=flat-square&logo=Docker&label=&message=Docker&color=gray">
-  <img src="https://img.shields.io/static/v1?style=flat-square&logo=Redis&label=&message=Redis&color=gray">
   <img src="https://img.shields.io/static/v1?style=flat-square&logo=Elasticsearch&label=&message=Elastic%20Search&color=gray">
   <img src="https://img.shields.io/static/v1?style=flat-square&logo=Swift&label=&message=Swift&color=gray">
+  <img src="https://img.shields.io/static/v1?style=flat-square&logo=Redis&label=&message=Redis&color=gray">
 </p>
 
 ---
