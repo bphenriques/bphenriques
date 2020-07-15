@@ -1,16 +1,10 @@
-<!-- TODO:
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-### 📖 Learning
--->
-
 <h3 align="center">Hi! 👋 I'm Bruno Henriques</h3>
 <p align="center">
   <a href="https://bphenriques.github.io">
     <img src="https://img.shields.io/static/v1?style=flat-square&label=%F0%9F%8F%A0&color=38474f&labelColor=38474f&message=bphenriques.github.io">
   </a>  
   <a href="https://bphenriques.github.io/knowledge-base">
-    <img src="https://img.shields.io/static/v1?style=flat-square&label=%F0%9F%A7%A0&color=palevioletred&labelColor=palevioletred&message=Knowledge-Base">
+    <img src="https://img.shields.io/static/v1?style=flat-square&label=%F0%9F%A7%A0&color=palevioletred&labelColor=palevioletred&message=Knowledge%20Base">
   </a>
   <a href="mailto:bphenriques@outlook.com">
     <img src="https://img.shields.io/static/v1?style=flat-square&label=&logo=Microsoft-Outlook&color=1a70bc&logoColor=white&labelColor=1a70bc&message=bphenriques@outlook.com">
@@ -43,7 +37,7 @@ I'm a backend engineer at [Talkdesk](https://www.talkdesk.com/), specifically on
 Nowadays I am working mostly with Kotlin, Spring Boot, Redis and learning a **lot** about telephony.
 
 ### 👨‍💻 Building
-#### 🧠 Personal Wiki
+#### 🧠 Personal Knowledge Base
 
 My personal wiki page is available at [bphenriques.github.io/knowledge-base](https://bphenriques.github.io/knowledge-base) and is open-source ([repo](www.github.com/bphenriques/knowledge-base)). Take a look!
 
