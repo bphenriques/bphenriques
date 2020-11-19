@@ -44,3 +44,10 @@ My personal wiki page is available at [bphenriques.github.io/knowledge-base](htt
 #### 💻 dotfiles 
 
 Currently working on my dotfiles with the goal of having a shared and reproducible working environment across work stations. Stay tuned!
+
+### Other
+
+I am grouping some of my projects as Github organizations:
+- 👨‍🔬 [bphenriques-lab](https://github.com/organizations/bphenriques-lab): R&D projects that I usually use for learning purposes.
+- 📚 [bphenriques-university](https://github.com/organizations/bphenriques-university): Old University projects.
+- 🗄️ [bphenriques-archive](https://github.com/organizations/bphenriques-archive): Archived projects.
