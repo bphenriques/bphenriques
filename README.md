@@ -47,7 +47,7 @@ My dotfiles are available [here](https://github.com/bphenriques/dotfiles). Curre
 
 ### Other
 
-I am grouping some of my projects as Github organizations:
+I am grouping my projects as Github organizations:
 - 👨‍🔬 [bphenriques-lab](https://github.com/organizations/bphenriques-lab): R&D projects to learn or experiment new things.
 - 📚 [bphenriques-university](https://github.com/organizations/bphenriques-university): Old University projects.
 - 🗄️ [bphenriques-archive](https://github.com/organizations/bphenriques-archive): Archived projects.
