@@ -32,9 +32,9 @@
 
 ---
 
-I'm a backend engineer at [Talkdesk](https://www.talkdesk.com/), specifically on the core side of the [Outbound Dialer](https://www.talkdesk.com/call-center-software/customer-engagement/outbound-dialer/) product. 
+I'm a backend engineer at [Talkdesk](https://www.talkdesk.com/), on the [Outbound Dialer](https://www.talkdesk.com/call-center-software/customer-engagement/outbound-dialer/) product. 
 
-Nowadays I am working mostly with Kotlin, Spring Boot, Redis and learning a **lot** about telephony.
+I currently work with Kotlin, Spring Boot, Redis and Scala on my free time.
 
 ### 👨‍💻 Building
 #### 🧠 Personal Knowledge Base
