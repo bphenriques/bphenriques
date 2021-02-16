@@ -34,7 +34,7 @@
 
 I'm a backend engineer at [Talkdesk](https://www.talkdesk.com/), on the [Outbound Dialer](https://www.talkdesk.com/call-center-software/customer-engagement/outbound-dialer/) product. 
 
-I currently work with Kotlin, Spring Boot, Redis and Scala on my free time.
+I currently work with Kotlin, Spring Boot, Redis. In my free time I play a bit Scala and Nix.
 
 ### 🧠 Personal Knowledge Base
 
@@ -42,7 +42,7 @@ My personal wiki page is available at [bphenriques.github.io/knowledge-base](htt
 
 ### 💻 dotfiles 
 
-My dotfiles are available [here](https://github.com/bphenriques/dotfiles). Currently migrating to Nix.
+My dotfiles are available [here](https://github.com/bphenriques/dotfiles) leveraging [Nix](https://nixos.org/) for reproducible systems.
 
 ### Other
 
