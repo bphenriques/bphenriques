@@ -38,7 +38,7 @@ I currently work with Kotlin, Spring Boot, Redis. In my free time I play a bit S
 
 ### 🧠 Personal Knowledge Base
 
-My personal wiki page is available at [bphenriques.github.io/knowledge-base](https://bphenriques.github.io/knowledge-base) and is open-source ([repo](https://github.com/bphenriques/knowledge-base))!
+My personal knowledge base is available at [bphenriques.github.io/knowledge-base](https://bphenriques.github.io/knowledge-base) leveraging [org-roam](https://github.com/org-roam/org-roam) and [hugo](https://gohugo.io/) ([source-code](https://github.com/bphenriques/knowledge-base)).
 
 ### 💻 dotfiles 
 
