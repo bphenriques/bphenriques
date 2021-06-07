@@ -32,10 +32,6 @@
 
 ---
 
-I'm a backend engineer at [Talkdesk](https://www.talkdesk.com/), on the [Outbound Dialer](https://www.talkdesk.com/call-center-software/customer-engagement/outbound-dialer/) product. 
-
-I currently work with Kotlin, Spring Boot, Redis. In my free time I play a bit Scala and Nix.
-
 ### 🧠 Personal Knowledge Base
 
 My personal knowledge base is available at [bphenriques.github.io/knowledge-base](https://bphenriques.github.io/knowledge-base) leveraging [org-roam](https://github.com/org-roam/org-roam) and [hugo](https://gohugo.io/) ([source-code](https://github.com/bphenriques/knowledge-base)).
