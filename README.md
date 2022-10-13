@@ -10,7 +10,7 @@
   </a>
 </p>
 
-<h2 align="center">Hi! 👋 I'm Bruno Henriques</h2>
+Hi! 👋 I'm Bruno Henriques
 
 If you wish to contact me see my contact information above.
 
