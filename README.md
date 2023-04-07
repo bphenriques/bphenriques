@@ -19,5 +19,5 @@ If you wish to contact me see my contact information above.
 - 💻 `dotfiles`: available [here](https://github.com/bphenriques/dotfiles) leveraging [Nix](https://nixos.org/) for reproducible systems.
 - 🧠 Personal Knowledge Base: available [here](https://bphenriques.github.io/knowledge-base) leveraging [org-roam](https://github.com/org-roam/org-roam) and [hugo](https://gohugo.io/) ([source-code](https://github.com/bphenriques/knowledge-base)).
 - 🧪 Experiments: experimenting new things in [bphenriques-lab](https://github.com/organizations/bphenriques-lab).
-- 👨‍💻 Challenges: the resolution of some interview challenges available in [bphenriques-interview-challenges](https://github.com/bphenriques-interview-challenges).
+- 👨‍💻 Code exercises: the resolution of some code exercises in [bphenriques-interview-challenges](https://github.com/bphenriques-interview-challenges).
 - 🗄️ Archived projects: available in [bphenriques-archive](https://github.com/organizations/bphenriques-archive).
