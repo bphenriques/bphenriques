@@ -5,9 +5,6 @@
   <a href="https://www.linkedin.com/in/bphenriques">
     <img src="https://img.shields.io/static/v1?style=flat-square&label=&logo=LinkedIn&color=blue&logoColor=white&labelColor=blue&message=bphenriques">
   </a>
-  <a href="https://bphenriques.github.io/knowledge-base">
-    <img src="https://img.shields.io/static/v1?style=flat-square&label=%F0%9F%A7%A0&color=palevioletred&labelColor=palevioletred&message=Knowledge%20Base">
-  </a>
 </p>
 
 Hi! 👋 I'm Bruno Henriques
