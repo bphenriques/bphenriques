@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/bphenriques/curriculum-vitae/releases/latest/download/bruno-henriques-cv.pdf">
+  <a href="https://github.com/bphenriques/curriculum-vitae/releases/latest/download/bruno-henriques-senior-software-engineer-cv.pdf">
     <img src="https://img.shields.io/badge/👤-Resume-0A66C2?style=flat-square">
   </a>
   <a href="https://www.linkedin.com/in/bphenriques">
