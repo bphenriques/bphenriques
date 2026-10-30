@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/badge/💼-LinkedIn-0A66C2?style=flat-square">
   </a>
   
-  <a href="https://bhenriques.com">
+  <a href="https://bphenriques.com">
     <img src="https://img.shields.io/badge/🌐-bphenriques-0A66C2?style=flat-square">
   </a>  
 </p>

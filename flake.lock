@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "dotfiles": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1793281885,
+        "narHash": "sha256-f3Ze1c9cVELCr042KoFck7tGo8LoV83wng+LvfQvcbw=",
+        "owner": "bphenriques",
+        "repo": "dotfiles",
+        "rev": "7f6f1912c3ad7527fdfe5362b43b63ca28223e0e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "bphenriques",
+        "repo": "dotfiles",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1793341285,
+        "narHash": "sha256-Y1CiZ4SoBUjLQyQM/pY+rS2dXD3CHLPstF0lmOc73D4=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "1c89083e451e891152365b799595cf7790a43325",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "dotfiles": "dotfiles",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
