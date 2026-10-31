@@ -1,147 +1,135 @@
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("fonts/IBMPlexMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("fonts/IBMPlexMono-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+
+/* Tailwind zinc (neutrals) and amber (accent). */
 :root {
   color-scheme: light dark;
-  /* Darker/burnt in light mode for contrast against a light page; the original pale gold in dark mode. */
-  --accent: light-dark(#c2660c, #ffe57f);
+  --bg: light-dark(#ffffff, #09090b);
+  --fg: light-dark(#18181b, #e4e4e7);
+  --muted: light-dark(#71717a, #a1a1aa);
+  --line: light-dark(#d4d4d8, #3f3f46);
+  --accent: light-dark(#b45309, #fcd34d);
 }
 
 body {
   margin: 0;
-  min-height: 100vh;
   min-height: 100dvh;
-  box-sizing: border-box; /* so the border below sits inside the 100dvh, not 6px past it */
-  display: grid;
-  /* Top-aligned (not centered) so expanding the services list grows downward
-     instead of re-centering and shifting the header. */
-  place-items: start center;
-  border-top: 3px solid var(--accent);
-  border-bottom: 3px solid var(--accent);
-  font: 16px/1.6 ui-monospace, "Consolas", "Liberation Mono", monospace;
+  box-sizing: border-box; /* so the borders sit inside the 100dvh */
+  border-block: 3px solid var(--accent);
+  background: var(--bg);
+  color: var(--fg);
+  font: 16px/1.6 "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
 }
 
 main {
-  max-width: 46ch;
-  padding: 2rem;
-  margin-block-start: clamp(2rem, 12vh, 5rem);
-}
-
-/* Fluid, wider column on desktop so the tagline stops wrapping. */
-@media (min-width: 50rem) {
-  main {
-    max-width: min(84ch, 100% - 6rem);
-  }
-}
-
-@media (max-width: 400px) {
-  main {
-    padding: 1.5rem;
-  }
+  width: min(60ch, 100% - 3rem);
+  margin: clamp(2rem, 12vh, 5rem) auto 2rem;
 }
 
 h1 {
   margin: 0 0 0.5rem;
-  font-size: 1.4rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+a {
+  color: inherit;
+  text-decoration-color: var(--line);
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  text-decoration-color: var(--accent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .tagline {
-  margin: 0 0 1.25rem;
-  text-wrap: balance;
+  margin: 0 0 1.5rem;
+  text-wrap: pretty;
 }
 
 .links {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5em;
-  margin: 0 0 1.5rem;
+  margin: 0 0 1.75rem;
 }
 
 .links a {
-  color: inherit;
   text-decoration: none;
   padding: 0.3rem 0.85rem;
-  border: 1px solid color-mix(in srgb, currentColor 25%, transparent);
-  border-radius: 999px;
+  border: 1px solid var(--line);
 }
 
-.links a:hover,
-.links a:focus-visible {
+.links a:hover {
   border-color: var(--accent);
 }
 
-.homelab {
-  margin: 0 0 1.5rem;
-}
-
-.homelab > summary {
+.homelab summary {
   cursor: pointer;
-  opacity: 0.75;
-  list-style: none;
-}
-.homelab > summary::-webkit-details-marker {
-  display: none;
-}
-.homelab > summary::before {
-  content: "▸";
-  display: inline-block;
-  width: 1.2em;
-  opacity: 0.7;
-}
-.homelab[open] > summary::before {
-  content: "▾";
+  color: var(--muted);
 }
 
-.homelab a,
-.hint a,
-.tagline a {
-  color: inherit;
-  text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
-  text-underline-offset: 0.15em;
-}
-
-.homelab a:hover,
-.homelab a:focus-visible,
-.hint a:hover,
-.hint a:focus-visible,
-.tagline a:hover,
-.tagline a:focus-visible {
-  text-decoration-color: currentColor;
+.homelab summary::marker {
+  color: var(--accent);
 }
 
 .svc {
   margin: 0;
 }
 
+@media (min-width: 50rem) {
+  .svc {
+    columns: 3;
+    column-gap: 2rem;
+  }
+}
+
+.svc > div {
+  break-inside: avoid;
+  padding-top: 0.9rem;
+}
+
 .svc dt {
-  opacity: 0.45;
+  color: var(--muted);
   font-size: 0.75em;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  margin: 0.9rem 0 0.15rem;
+  margin-bottom: 0.15rem;
 }
 
 .svc dd {
-  margin: 0;
-  padding-left: 1rem;
+  margin: 0 0 0 1rem;
+}
+
+.more,
+.hint {
+  color: var(--muted);
 }
 
 .more {
-  margin: 0.9rem 0 0;
-  padding-left: 1rem;
-  opacity: 0.45;
+  margin: 0.9rem 0 0 1rem;
   font-size: 0.9em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .links a {
-    transition: border-color 120ms ease;
+  a {
+    transition: text-decoration-color 120ms ease, border-color 120ms ease;
   }
-  .homelab a,
-  .hint a,
-  .tagline a {
-    transition: text-decoration-color 120ms ease;
-  }
-}
-
-.hint {
-  opacity: 0.6;
 }
